@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addict Design | Forrado de motos y carros, PPF y cursos en Bogotá</title>
+  <meta name="description" content="Forramos motos y carros en vinilo premium y protegemos la pintura original con PPF. Cursos de forrado en nuestro taller de Bogotá.">
+  <link rel="icon" href="img/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ===== Encabezado ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="img/logo.png" alt="Addict Design" width="135" height="40">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#trabajos">Trabajos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contacto">El taller</a></li>
+        </ul>
+        <a class="btn btn--primary" href="https://wa.me/573227536064" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__top">
+          <h1 class="title title--xl">
+            Cambia el color.
+            <span class="accent">Protege la esencia.</span>
+          </h1>
+          <div class="hero__intro">
+            <p>No es pintura. Forramos motos y carros en vinilo premium y blindamos la pintura original con PPF, en nuestro taller de Bogotá.</p>
+            <div class="btn-group">
+              <a class="btn btn--primary" href="#contacto">Cotizar mi proyecto</a>
+              <a class="btn btn--outline" href="#trabajos">Ver trabajos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Para usar fotos reales, cambia cada .ph por:
+             <img class="photo ph--tall" src="img/archivo.jpg" alt="Descripción" loading="lazy">
+             (conserva la clase de proporción: ph--tall, ph--card, ph--work o ph--light) -->
+        <div class="grid grid--3">
+          <img class="photo ph--tall" src="img/mt09-tiffany-blue.jpg" alt="Yamaha MT-09 forrada en vinilo Tiffany Blue" width="1200" height="1600" fetchpriority="high">
+          <img class="photo ph--tall" src="img/mercedes-detalle.jpg" alt="Detalle del frente de un Mercedes-Benz forrado en amarillo con franjas negras" width="1200" height="1600">
+          <img class="photo ph--tall" src="img/mercedes-amarillo.jpg" alt="Mercedes-Benz Clase A forrado en amarillo y negro mate" width="1200" height="1600">
+        </div>
+
+        <ul class="facts">
+          <li><strong>63,6 mil</strong> en Instagram</li>
+          <li><strong>45,4 mil</strong> en TikTok</li>
+          <li>Calle 63A #24-80, Bogotá</li>
+          <li>Lunes a sábado · 8:30 a.m. – 6:00 p.m.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Servicios ===== -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="title title--lg">Lo que hacemos</h2>
+          <p class="muted">Tres formas de trabajar con nosotros: cambiar el color, proteger la pintura o aprender el oficio.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <img class="photo ph--card" src="img/mt09-pink-red.jpg" alt="Yamaha MT-09 forrada en rosado y rojo" width="900" height="1125" loading="lazy">
+            <h3 class="card__title">Forrado (wrap)</h3>
+            <p class="muted">Cambio de color total o parcial en vinilo TeckWrap: satín, mate, brillante o cromo. Se retira sin dañar la pintura de fábrica.</p>
+            <a class="link" href="#contacto" data-servicio="Forrado (wrap)">Cotizar forrado →</a>
+          </article>
+
+          <article class="card">
+            <img class="photo ph--card" src="img/corvette-ppf.jpg" alt="Frente de un Corvette C8 rojo protegido con PPF" width="900" height="1126" loading="lazy">
+            <h3 class="card__title">PPF</h3>
+            <p class="muted">Película transparente que protege la pintura original de piedras, rayones y el desgaste diario. Se ve de fábrica.</p>
+            <a class="link" href="#contacto" data-servicio="PPF">Cotizar PPF →</a>
+          </article>
+
+          <article class="card" id="cursos">
+            <div class="ph ph--card"><span>Foto vertical<br>Alumnos en el curso</span></div>
+            <h3 class="card__title">Cursos de forrado</h3>
+            <p class="muted">Cursos presenciales en el taller, con práctica sobre vehículos reales. Próxima fecha: [FECHA DEL CURSO].</p>
+            <a class="link" href="#contacto" data-servicio="Curso de forrado">Reservar cupo →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Antes / Después ===== -->
+    <section class="section section--light">
+      <div class="container split">
+        <div class="compare">
+          <figure>
+            <img class="photo ph--light" src="img/glc43-antes.jpg" alt="Mercedes-AMG GLC 43 en su color negro original" width="900" height="1125" loading="lazy">
+            <figcaption>Antes · color original</figcaption>
+          </figure>
+          <figure>
+            <img class="photo ph--light" src="img/glc43-despues.jpg" alt="El mismo Mercedes-AMG GLC 43 forrado en vinilo azul" width="900" height="1125" loading="lazy">
+            <figcaption>Después · forrado en vinilo</figcaption>
+          </figure>
+        </div>
+
+        <div>
+          <h2 class="title title--lg">
+            No es
+            <span class="accent">pintura.</span>
+          </h2>
+          <p class="lead">Es vinilo adhesivo instalado a mano, pieza por pieza. Cambias el look de tu moto o tu carro y debajo la pintura de fábrica queda intacta, protegida y lista para cuando quieras volver al original.</p>
+          <a class="btn btn--dark" href="#contacto">Quiero el cambio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trabajos ===== -->
+    <section class="section" id="trabajos">
+      <div class="container">
+        <div class="section__head section__head--bottom">
+          <h2 class="title title--lg">Trabajos recientes</h2>
+          <ul class="social">
+            <li><a href="https://www.instagram.com/addictdesign_/" target="_blank" rel="noopener">Instagram ↗</a></li>
+            <li><a href="https://www.tiktok.com/@addictdesign_" target="_blank" rel="noopener">TikTok ↗</a></li>
+            <li><a href="https://www.youtube.com/@addictdesign" target="_blank" rel="noopener">YouTube ↗</a></li>
+          </ul>
+        </div>
+
+        <ul class="grid grid--5 works">
+          <li>
+            <img class="photo ph--work" src="img/zx10r-negro-mate.jpg" alt="Kawasaki ZX-10R forrada en negro mate" width="900" height="1198" loading="lazy">
+            <h3>Kawasaki ZX-10R</h3><p class="muted">Negro mate</p>
+          </li>
+          <li>
+            <img class="photo ph--work" src="img/cfmoto-nk450.jpg" alt="CFMoto NK450 forrada en morado noche" width="900" height="1200" loading="lazy">
+            <h3>CFMoto NK450</h3><p class="muted">Morado noche</p>
+          </li>
+          <li>
+            <img class="photo ph--work" src="img/corvette-c8.jpg" alt="Corvette C8 rojo con PPF" width="900" height="1126" loading="lazy">
+            <h3>Corvette C8</h3><p class="muted">PPF</p>
+          </li>
+          <li>
+            <img class="photo ph--work" src="img/gsxr150-aura.jpg" alt="Suzuki GSX-R 150 forrada en vinilo tornasol azul y morado" width="900" height="1200" loading="lazy">
+            <h3>Suzuki GSX-R 150</h3><p class="muted">Forrado (no es pintura)</p>
+          </li>
+          <li>
+            <img class="photo ph--work" src="img/cupra-formentor.jpg" alt="Cupra Formentor forrado en verde satinado" width="900" height="1200" loading="lazy">
+            <h3>Cupra Formentor</h3><p class="muted">Verde satinado</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="section section--border" id="contacto">
+      <div class="container split split--top">
+        <div>
+          <h2 class="title title--lg">
+            Trae tu
+            <span class="accent">máquina.</span>
+          </h2>
+          <p class="lead muted">Cuéntanos qué vehículo tienes y qué quieres hacerle. Te respondemos por WhatsApp con la cotización.</p>
+
+          <dl class="info">
+            <div><dt>Dirección</dt><dd>Calle 63A #24-80, Bogotá</dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="https://wa.me/573227536064" target="_blank" rel="noopener">322 753 6064</a></dd></div>
+            <div><dt>Horario</dt><dd>Lun a sáb · 8:30 a.m. – 6:00 p.m.</dd></div>
+            <div><dt>Redes</dt><dd><a href="https://www.instagram.com/addictdesign_/" target="_blank" rel="noopener">@addictdesign_</a></dd></div>
+          </dl>
+        </div>
+
+        <form class="form" id="form-cotizar">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required>
+
+          <label for="vehiculo">Vehículo</label>
+          <input id="vehiculo" name="vehiculo" type="text" placeholder="Ej. Suzuki Gixxer 250" required>
+
+          <label for="servicio">Servicio</label>
+          <select id="servicio" name="servicio">
+            <option>Forrado (wrap)</option>
+            <option>PPF</option>
+            <option>Curso de forrado</option>
+          </select>
+
+          <button class="btn btn--primary btn--block" type="submit">Enviar por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pie de página ===== -->
+  <footer class="footer footer--light">
+    <div class="container footer__inner">
+      <img src="img/logo-dark.png" alt="Addict Design" width="108" height="32" loading="lazy">
+      <p class="muted">Wrap · PPF · Cursos de forrado — Bogotá</p>
+    </div>
+    <div class="container">
+      <p class="footer__copy muted">© <span id="year">2026</span> Addict Design. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
